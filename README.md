@@ -1,16 +1,22 @@
 # Machine Learning Projects
 
 ## 1. Fake News Detection
-This project classifies news as real or fake using Machine Learning.
+
+Classifies news articles as REAL or FAKE using TF-IDF vectorization 
+and Logistic Regression, trained on a dataset of 4,500+ real news articles.
 
 Techniques Used:
-- TF-IDF Vectorization
+- TF-IDF Vectorization (5,000 features, stopword removal)
 - Logistic Regression
+- Train/test split (80/20, stratified)
 
-Output:
-Predicts whether given news text is Real or Fake.
+Results:
+- Accuracy: 92.1%
+- Precision: 93.9%
+- Recall: 90.0%
+- F1 Score: 91.9%
 
----
+Files: fake_news_detection.py, news.csv
 
 ## 2. Student Score Prediction
 This project predicts student marks based on study hours.
