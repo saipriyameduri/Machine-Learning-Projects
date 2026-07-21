@@ -19,15 +19,21 @@ Results:
 Files: fake_news_detection.py, news.csv
 
 ## 2. Student Score Prediction
-This project predicts student marks based on study hours.
+
+Predicts a student's exam score from hours studied using Simple Linear Regression,
+trained on a dataset of 25 real student records.
 
 Techniques Used:
 - Linear Regression
+- Train/test split (80/20)
 
-Output:
-Predicts score based on input hours studied.
+Results:
+- R² Score: 0.97
+- MAE: 3.92
 
----
+Files: student_score_prediction.py, student_scores.csv
+
+
 
 ## Tools & Libraries
 - Python
